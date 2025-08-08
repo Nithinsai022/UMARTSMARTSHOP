@@ -54,7 +54,19 @@ header img {
   border: 2px solid rgba(255, 255, 255, 0.3); /* Subtle border */
 }
 
-    
+   .brand-logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--muted);
+  line-height: 1.1; /* Tighter vertical spacing */
+}
+
+.brand-logo span {
+    display: block;
+    margin: -9px;
+    padding: -1px;
+}
+ 
 
 .brand {
   display: flex;
@@ -79,16 +91,19 @@ header img {
 
 .brand h1 {
   margin: 0;
+  letter-spacing: 2px;
+
   font-size: 20px;
   font-weight: 700;
   color: var(--muted);
 }
 
 .brand p {
-  margin: 0;
-  font-size: 14px;
-  color: #cfeaff;
-  opacity: 0.9;
+    margin: -9px;
+    font-size: 14px;
+    color: #cfeaff;
+    opacity: 0.9;
+    padding: 8px;
 }
 
 .cta-top {
