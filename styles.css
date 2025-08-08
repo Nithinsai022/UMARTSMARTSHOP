@@ -272,10 +272,10 @@ header img {
 /* Mobile view fix */
 @media (max-width: 600px) {
   .mockphone {
-    height: 90vh; /* fill most of the mobile height */
-            height: 370px;
-    padding: 12px;
-    border-radius: 20px;
+            height: 88vh;
+        height: 365px;
+        padding: 1px;
+        border-radius: 20px;
   }
 }
 
@@ -432,8 +432,8 @@ footer {
     grid-template-columns: 1fr;
   }
   .mockphone {
-    width: 260px;
-    height: 370px;
+    width: 334px;
+    height: 369px;
     transform: none;
     margin: 0 auto;
   }
