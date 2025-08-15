@@ -416,6 +416,7 @@ footer {
 }
 
 .badge-small {
+  
   background: transparent;
       border: 1px solid rgba(255, 255, 255, 0.12);
   color: rgb(15, 15, 15);       /* makes text white */
